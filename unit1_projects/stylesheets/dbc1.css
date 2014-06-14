@@ -23,3 +23,6 @@ img{
     width:140px;
     height:auto;
 }
+article{
+	float: center;
+}
