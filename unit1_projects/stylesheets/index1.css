@@ -1,0 +1,30 @@
+aside   {
+     	float: right;
+     	min-height: 100%;
+     	width: 22%;
+     	background-color: #b6effb;
+     	padding: 10px;
+     	margin: 5px;
+        }
+        
+a:link{
+    color: black;
+    font-size: 30px;
+    }
+a:visited{
+    color:green;
+    }
+a:hover{
+        color: blue;
+    }
+body{background-image: url("unit1_projects/images/metropolis-twitter-background.jpeg"); 
+}
+
+#home{
+    background-image: url("unit1_projects/images/findafeast.png");
+}
+	
+header {
+	text-align: center;
+	font-size: 230px;
+}
