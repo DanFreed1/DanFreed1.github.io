@@ -46,8 +46,14 @@ header {
     clear: both;
 }
 footer {
+    text-align: center;
+    font-size: 1.5em;
+     background-color: #D6D6FF;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+    padding: 1em 1em;
     clear: both;
-    background-color: #D6D6FF;
     position: absolute; bottom: : center;
     max-height: 2em;
 }
