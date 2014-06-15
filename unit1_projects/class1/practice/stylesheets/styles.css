@@ -21,7 +21,7 @@ a {
 h1 {
   font-size: 2.2em;
   float: left;
-  line-height: 3.125;
+  line-height: 3.125em;
 }
 
 h2 {
@@ -108,7 +108,7 @@ header:after {
 }
 #main div.wrapper{
     width: 100%;
-    max-width:87.5em;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -174,9 +174,9 @@ header:after {
   margin: 3.12em;
 }
 #facts ul li {
-  font-size: 4.688em;
+  font-size: 1em;
   font-family: "Roboto Condensed";
-  line-height: 5em;
+  line-height: 1em;
   margin-bottom: 1em;
   padding-left: .313em;
 }
