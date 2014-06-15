@@ -1,30 +1,84 @@
-aside   {
-     	float: right;
-     	min-height: 100%;
-     	width: 22%;
-     	background-color: #b6effb;
-     	padding: 10px;
-     	margin: 5px;
-        }
-        
-a:link{
+nav {
+    padding: .8em;
+    position: relative;
+    clear: top;
+    min-width: 80%;
+}
+.mbar li {
+    float: left;
+    position: relative;
+    width: 250px;
+}
+.mbar li a:link{
     color: black;
-    font-size: 30px;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding: .2em .2em;
+    margin: .2em .2em;
+    vertical-align: middle;
     }
-a:visited{
+.mbar li a:visited{
     color:green;
     }
-a:hover{
+.mbar li a:hover{
         color: blue;
     }
-body{background-image: url("unit1_projects/images/metropolis-twitter-background.jpeg"); 
+#home1{
+    background-color: #FFEBEB#;
+    width: 85%;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: bottom;
 }
-
-#home{
-    background-image: url("unit1_projects/images/findafeast.png");
+body{
+    background-color: #CCFFFF;
 }
-	
 header {
 	text-align: center;
-	font-size: 230px;
+	font-size: 1.5em;
+     background-color: #D6D6FF;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+    padding: 1em 1em;
+    clear: both;
+}
+footer {
+    clear: both;
+    background-color: #D6D6FF;
+    position: absolute; bottom: : center;
+    max-height: 2em;
+}
+.icon{
+    max-width: 3em;
+    max-height: 3em;
+}
+h3{
+    float :left;
+    padding: .8em
+}
+.week {
+  background-color: #FFEBEB;
+  width: 80%;
+  height: 4em;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em 3em;
+  
+}
+#profile{
+    max-height: 10em;
+    max-width: 5em;
+    
+}
+.box-link{
+    background-color: #D6D6FF;
+    padding: 1em;
+    margin: .5em;
+    border: solid 1px black;
+    float: left;
 }
