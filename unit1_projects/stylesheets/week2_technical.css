@@ -1,0 +1,74 @@
+
+body{
+    background-color: #CCFFFF;
+}
+#container{
+	width: 80%;
+	background-color: #FFEBEB;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: bottom;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: center;
+    padding: 1.5em;
+}
+header {
+	display: inline-block;
+	text-align: center;
+    font-size: 1.5em;
+    background-color: #D6D6FF;
+    max-height: 2em;
+    width: 80%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+footer {
+    background-color: #D6D6FF;
+    max-height: 2em;
+    width: 80%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.icon{
+    height: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.mbar li {
+    float: left;
+    position: relative;
+    width: 10%;
+    margin-right: 11%;
+    margin-left: 11%;
+}
+article h2{
+	font-size: 24px;
+	font-family: Times;
+}
+article p{
+	margin-right: 10px;
+	margin-right: 10px;
+}
+.mbar li a:link{
+    color: black;
+    font-size: .5em;
+    line-height: 1em;
+    padding: .2em .2em;
+    margin: .2em .2em;
+    vertical-align: middle;
+    }
+.mbar li a:visited{
+    color:green;
+    }
+.mbar li a:hover{
+        color: blue;
+    }
