@@ -1,8 +1,24 @@
+header {
+    min-width: 80%;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #D6D6FF;
+    max-height: 2em;
+    width: 80%;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
 nav {
     padding: .8em;
     position: relative;
-    clear: top;
-    min-width: 80%;
+    
 }
 .mbar li {
     float: left;
@@ -34,30 +50,6 @@ nav {
 body{
     background-color: #CCFFFF;
 }
-header {
-    display: inline-block;
-    text-align: center;
-    font-size: 1.5em;
-    background-color: #D6D6FF;
-    max-height: 2em;
-    width: 80%;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0;
-    margin-bottom: 3em;
-}
-footer {
-    background-color: #D6D6FF;
-    max-height: 2em;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    padding-bottom: 2em;
-    padding-top: 2em;
-}
-
 .icon{
     height: 3em;
     margin-left: 2em;
@@ -70,14 +62,14 @@ h3{
 }
 .week {
 background-color: #FFEBEB;
-width: 80%;
 height: 4em;
 margin-top: 5%;
 margin-bottom: 8%;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: auto;
+margin-right: auto;
 padding: 3em 3em;
 width: 72.1%;
+border: 1px solid black;
 }
 #profile{
     position: relative;
@@ -101,6 +93,13 @@ width: 70%;
 h1{
     font-size: 30px
 }
-
-    
-            
+footer {
+    background-color: #D6D6FF;
+    max-height: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border: 1px solid black;
+}
